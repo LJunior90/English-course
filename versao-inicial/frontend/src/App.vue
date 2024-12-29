@@ -1,6 +1,8 @@
 <template>
 	<div id="app" :class="{'hide-menu': !isMenuVisible}">
-		<Header title="Plataforma da prática" :hideToggle="false"/>
+		<Header title="Plataforma da prática" 
+		:hideToggle="false"
+		:hideUserDropdown="false"/>
 		<Menu />
 		<Content />
 		<Footer />
